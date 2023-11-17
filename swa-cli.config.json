@@ -1,0 +1,8 @@
+{
+    "configurations": {
+        "app" :{
+            "outputLocation": ".build/static",
+            "apiBuildCommand": "./api"
+        }
+    }
+}
