@@ -8,6 +8,15 @@
 		<title data-sveltekit-title>DevToolsBox Developer common tools</title>
 		%sveltekit.head%
 	</head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H5Z30W3TSX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-H5Z30W3TSX');
+	</script>
 	<body data-sveltekit-preload-data="hover" data-theme="rocket">
 		<div style="display: contents" class="h-full overflow-hidden">%sveltekit.body%</div>
 	</body>
