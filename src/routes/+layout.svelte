@@ -39,10 +39,10 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment>
-	<svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment>
+	<svelte:fragment slot="sidebarLeft"></svelte:fragment>
+	<svelte:fragment slot="sidebarRight"></svelte:fragment>
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
+	<svelte:fragment slot="pageFooter"></svelte:fragment>
 </AppShell>
