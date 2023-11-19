@@ -3,14 +3,15 @@
 @tailwind utilities;
 @tailwind variants;
 
-html,
-body {
-	@apply h-full overflow-hidden;
-}
+html, body { @apply h-full overflow-hidden; }
 
 /* rocket theme */
 @font-face {
 	font-family: 'Space Grotesk';
 	src: url('/fonts/SpaceGrotesk.ttf');
 	font-display: swap;
+}
+
+.mainCard {
+	flex-wrap: wrap;  flex-shrink: 3; 
 }
