@@ -17,7 +17,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Developer Tools Box</strong>
+				<strong class="text-xl uppercase">Developer Tool Box</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
