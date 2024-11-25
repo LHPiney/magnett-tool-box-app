@@ -1,0 +1,256 @@
+{
+  "toolGroups": {
+    "guid": {
+      "title": "Utilidades GUID/UUID",
+      "description": "Herramientas para generar y manipular identificadores únicos",
+      "tools": [
+        {
+          "id": "guid-generator",
+          "name": "Generador de GUID",
+          "description": "Genera GUIDs/UUIDs aleatorios en diferentes formatos"
+        },
+        {
+          "id": "guid-validator",
+          "name": "Validador de GUID",
+          "description": "Valida si una cadena es un GUID/UUID válido"
+        },
+        {
+          "id": "guid-converter",
+          "name": "Conversor de GUID",
+          "description": "Convierte GUIDs entre diferentes formatos (con/sin guiones, mayúsculas/minúsculas)"
+        }
+      ]
+    },
+    "dates": {
+      "title": "Manipulación de Fechas",
+      "description": "Herramientas para trabajar con fechas y horas",
+      "tools": [
+        {
+          "id": "date-converter",
+          "name": "Conversor de Fechas",
+          "description": "Convierte fechas entre diferentes formatos y zonas horarias"
+        },
+        {
+          "id": "date-calculator",
+          "name": "Calculadora de Fechas",
+          "description": "Calcula diferencias entre fechas, suma/resta días, etc."
+        },
+        {
+          "id": "date-formatter",
+          "name": "Formateador de Fechas",
+          "description": "Formatea fechas según diferentes patrones (ISO, local, personalizado)"
+        }
+      ]
+    },
+    "encoding": {
+      "title": "Codificación",
+      "description": "Herramientas para codificar y decodificar datos",
+      "tools": [
+        {
+          "id": "base64",
+          "name": "Base64",
+          "description": "Codifica y decodifica texto en Base64"
+        },
+        {
+          "id": "url-encoder",
+          "name": "Codificador URL",
+          "description": "Codifica y decodifica URLs y parámetros de consulta"
+        },
+        {
+          "id": "jwt-decoder",
+          "name": "Decodificador JWT",
+          "description": "Decodifica y valida tokens JWT"
+        }
+      ]
+    },
+    "formatting": {
+      "title": "Formateo",
+      "description": "Herramientas para formatear y embellecer código",
+      "tools": [
+        {
+          "id": "json-formatter",
+          "name": "Formateador JSON",
+          "description": "Formatea, valida y minifica JSON"
+        },
+        {
+          "id": "xml-formatter",
+          "name": "Formateador XML",
+          "description": "Formatea y valida XML"
+        },
+        {
+          "id": "sql-formatter",
+          "name": "Formateador SQL",
+          "description": "Formatea consultas SQL para mejor legibilidad"
+        }
+      ]
+    },
+    "regex": {
+      "title": "Expresiones Regulares",
+      "description": "Herramientas para trabajar con expresiones regulares",
+      "tools": [
+        {
+          "id": "regex-tester",
+          "name": "Probador de Regex",
+          "description": "Prueba y valida expresiones regulares en tiempo real"
+        },
+        {
+          "id": "regex-generator",
+          "name": "Generador de Regex",
+          "description": "Genera expresiones regulares a partir de ejemplos de texto"
+        },
+        {
+          "id": "regex-cheatsheet",
+          "name": "Chuleta de Regex",
+          "description": "Referencia rápida de patrones comunes de expresiones regulares"
+        }
+      ]
+    },
+    "hash": {
+      "title": "Hashing y Cifrado",
+      "description": "Herramientas de hash y cifrado de datos",
+      "tools": [
+        {
+          "id": "md5-generator",
+          "name": "Generador MD5",
+          "description": "Genera hashes MD5 de texto o archivos"
+        },
+        {
+          "id": "sha-generator",
+          "name": "Generador SHA",
+          "description": "Genera hashes SHA-1, SHA-256, SHA-512"
+        },
+        {
+          "id": "bcrypt-tool",
+          "name": "Herramienta BCrypt",
+          "description": "Genera y verifica hashes BCrypt para contraseñas"
+        }
+      ]
+    },
+    "diff": {
+      "title": "Comparación de Texto",
+      "description": "Herramientas para comparar y encontrar diferencias",
+      "tools": [
+        {
+          "id": "text-diff",
+          "name": "Diff de Texto",
+          "description": "Compara dos textos y muestra las diferencias"
+        },
+        {
+          "id": "json-diff",
+          "name": "Diff de JSON",
+          "description": "Compara dos objetos JSON y muestra las diferencias"
+        },
+        {
+          "id": "xml-diff",
+          "name": "Diff de XML",
+          "description": "Compara dos documentos XML y muestra las diferencias"
+        }
+      ]
+    },
+    "minify": {
+      "title": "Minificación",
+      "description": "Herramientas para minificar y optimizar código",
+      "tools": [
+        {
+          "id": "js-minifier",
+          "name": "Minificador JS",
+          "description": "Minifica y optimiza código JavaScript"
+        },
+        {
+          "id": "css-minifier",
+          "name": "Minificador CSS",
+          "description": "Minifica y optimiza hojas de estilo CSS"
+        },
+        {
+          "id": "html-minifier",
+          "name": "Minificador HTML",
+          "description": "Minifica y optimiza código HTML"
+        }
+      ]
+    },
+    "generators": {
+      "title": "Generadores de Código",
+      "description": "Herramientas para generar código y datos",
+      "tools": [
+        {
+          "id": "lorem-ipsum",
+          "name": "Generador Lorem Ipsum",
+          "description": "Genera texto de relleno para maquetación"
+        },
+        {
+          "id": "mock-data",
+          "name": "Generador de Datos Mock",
+          "description": "Genera datos de prueba en varios formatos"
+        },
+        {
+          "id": "api-mock",
+          "name": "Generador de API Mock",
+          "description": "Genera respuestas de API simuladas"
+        }
+      ]
+    },
+    "validation": {
+      "title": "Validación y Testing",
+      "description": "Herramientas para validar diferentes formatos y estructuras",
+      "tools": [
+        {
+          "id": "json-validator",
+          "name": "Validador JSON Schema",
+          "description": "Valida JSON contra un schema y formatea"
+        },
+        {
+          "id": "yaml-validator",
+          "name": "Validador YAML",
+          "description": "Valida y convierte entre YAML y JSON"
+        },
+        {
+          "id": "cron-validator",
+          "name": "Validador de CRON",
+          "description": "Valida y explica expresiones CRON"
+        }
+      ]
+    },
+    "numbers": {
+      "title": "Matemáticas y Números",
+      "description": "Herramientas para cálculos y conversiones numéricas",
+      "tools": [
+        {
+          "id": "number-base",
+          "name": "Conversor de Base Numérica",
+          "description": "Convierte números entre diferentes bases (binario, octal, decimal, hexadecimal)"
+        },
+        {
+          "id": "calculator",
+          "name": "Calculadora Programador",
+          "description": "Calculadora con funciones específicas para programadores"
+        },
+        {
+          "id": "unit-converter",
+          "name": "Conversor de Unidades",
+          "description": "Convierte entre diferentes unidades de medida"
+        }
+      ]
+    },
+    "design": {
+      "title": "Diseño y UI",
+      "description": "Herramientas para diseño y desarrollo frontend",
+      "tools": [
+        {
+          "id": "color-converter",
+          "name": "Conversor de Colores",
+          "description": "Convierte colores entre diferentes formatos (HEX, RGB, HSL)"
+        },
+        {
+          "id": "color-palette",
+          "name": "Generador de Paletas",
+          "description": "Genera paletas de colores armoniosas"
+        },
+        {
+          "id": "gradient-generator",
+          "name": "Generador de Gradientes",
+          "description": "Crea y previsualiza gradientes CSS"
+        }
+      ]
+    }
+  }
+} 
